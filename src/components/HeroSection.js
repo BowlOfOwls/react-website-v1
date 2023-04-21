@@ -22,6 +22,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          link="/favorites"
         >
           FAVORITES <i className="fa fa-thumbs-up" />
         </ButtonLink>

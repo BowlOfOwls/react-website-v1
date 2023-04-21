@@ -8,11 +8,9 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <h2>Back Up</h2>
+            <Link to="/">Home</Link>
+            <Link to="/favorites">Favorites</Link>
           </div>
         </div>
       </div>
