@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
-import { Link } from "react-router-dom";
+import { ButtonLink } from "./ButtonLink";
 
 function HeroSection() {
   return (
@@ -18,14 +18,13 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-        <Button
+        <ButtonLink
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          onClick={console.log("hey")}
         >
           FAVORITES <i className="fa fa-thumbs-up" />
-        </Button>
+        </ButtonLink>
       </div>
     </div>
   );
