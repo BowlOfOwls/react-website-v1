@@ -4,9 +4,12 @@ import Footer from "../Footer";
 
 export default function Favorites() {
   return (
-    <div>
-      <h1 className="services">Favorites</h1>
+    <>
+      <div className="hero-container">
+        <video src="/videos/video-1.mp4" autoPlay loop muted />
+        <h1>Favorites</h1>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
